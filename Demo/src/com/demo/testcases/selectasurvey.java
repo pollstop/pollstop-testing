@@ -32,9 +32,13 @@ WebDriver driver = new ChromeDriver();
 		
 		driver.findElement(By.id("action")).sendKeys(Keys.ENTER);
 		
-		Thread.sleep(1000);
+		Thread.sleep(3000);
+		// FOR Agile project Questions
 		
-	
+		driver.findElement(By.xpath("/html/body/main/div[1]/div[4]/div[2]/div[3]/a[1]")).click();
+		
+		
+		driver.findElement(By.xpath("/html/body/div/nav/div/ul/li[3]/a")).click();
 		
 		
 		
